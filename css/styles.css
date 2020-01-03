@@ -1,0 +1,189 @@
+body {
+    font-family : 'Montserrat';
+    text-align : center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : 'Montserrat-Bold';
+    font-weight : bold;
+    line-height : 1.5;
+}
+
+h2 {
+    font-size : 3rem;
+}
+
+.colored-section {
+    color : #fff;
+}
+
+.white-section {
+    background-color : #fff;
+    color : black;
+}
+
+/* Navigation Bar */
+nav {
+    margin : 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family : 'Ubuntu';
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.nav-item {
+    padding : 0 18px;
+}
+
+.nav-link {
+    font-size : 1.2rem;
+    font-family : 'Montserrat-Light';
+}
+
+nav > a {
+    font-weight : bold;
+    font-size : 60px;
+}
+
+/* Title */
+#title {
+    background-color : #ff4c68;
+    padding-bottom : 90px;
+    text-align : left;
+}
+
+#title h1 {
+    font-family : 'Montserrat-Black';
+    font-size : 3rem;
+}
+
+
+.title-img {
+    width : 300px;
+    transform : rotate(25deg);
+    margin-left : 15%;
+    position : absolute;
+}
+
+@media (max-width : 991px) {
+    .title-img {
+        position : static;
+        margin-top : 25px;
+        transform : rotate(0deg);
+    }
+
+    #title {
+        text-align : center;
+    }
+}
+
+.download-button {
+    margin : 5% 3% 0 0;
+}
+
+.container-fluid {
+    padding : 3% 15% 7%;
+}
+
+
+/* Features */
+#features {
+    padding : 10% 10%;
+    margin:auto;
+    position : relative;
+}
+
+#features > div > div {
+    padding : 0 5% 0 5%;
+}
+
+#features h3 {
+    font-family: 'Montserrat';
+    font-weight : bold;
+    font-size : 1.5rem;
+}
+
+#features p {
+    color : #8f8f8f;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color : #ef8172;
+    padding : 10% 10% 2%;
+    overflow : auto;
+}
+
+
+.testimonial-image {
+    border-radius : 50%;
+    width : 150px;
+    margin : 5% 3% 5%;
+}
+
+.carousel-inner {
+    position : relative;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position : absolute;
+    top : 150px;
+
+}
+
+.carousel-control-prev-icon {
+    right : 100%;
+}
+
+.carousel-control-next-icon {
+    left : 100%;
+}
+
+/* Press */
+#press {
+    background-color : #ef8172;
+    padding : 3% 8% 7%;
+}
+
+#press img {
+    height : 50px;
+    margin: 2% 0 2%;
+}
+
+/* Pricing */
+#pricing {
+    padding : 5% 3% 5%;
+}
+.pricing-header {
+    margin-bottom : 5%;
+}
+
+.card {
+    margin-bottom : 3%;
+}
+
+/* Call to Action */
+#cta {
+    background-color : #ff4c68;
+    padding : 6% 15%;
+    margin-bottom : 3%;
+}
+
+#cta h3 {
+    font-family : 'Montserrat-Black';
+    font-weight : bold;
+    font-size : 3.5rem;
+}
+
+.cta-button {
+    margin : 2% 1%;
+}
+
+/* Footer */
+#footer {
+    margin-top : 8%;
+    padding : 5% 15%;
+}
